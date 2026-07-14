@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: fit-content;
+    padding: 10px;
+    background: blue;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.box .inner {
+    background: green;
+    transition: all 0.5s ease;
+    color: white;
+    padding: 10px;
+    border: solid;
+    transform: scaleY(0);
+    display: none;
+}
+
+.box:hover .inner {
+    display: block;
+    transform: scaleY(1);
+}
