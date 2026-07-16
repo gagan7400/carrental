@@ -26,7 +26,7 @@ module.exports = { cloudinary }
 
 app.use(cookieParser())
 app.use(cors({
-    "origin": ["https://carrental56.netlify.app/"],
+    "origin": ["https://carrental56.netlify.app"],
     credentials: true
 }))
 
